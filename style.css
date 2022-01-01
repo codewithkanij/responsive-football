@@ -70,7 +70,7 @@ nav span{
     /* transform: rotate(30deg); */
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
-/* ------------------------------------middle section suru----------------------------------- */
+/* ------------------------------------middle section suru---------------------------------- */
 .mid-section{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -134,18 +134,19 @@ img{
     /*------------------------------------- mobile device (media      query-----------------------------------*/
 
     @media only screen and (max-width:688px) {
-/*        
+        
     header{
-        width: 900px;
+        display: nones;
+        /* width: 900px; */
     }
-    header span{
+    /* header span{
       margin-left: 20px;
       width: 100%;
-    }
+    } */
         .top-section {
             display: grid;
             grid-template-columns: repeat(1, 1fr);
-            height: 950px;
+            width: 100%;
             
             
         }
@@ -166,9 +167,10 @@ img{
                     }
         .mid-section{
             grid-template-columns: repeat(1, 1fr);
+            justify-content: center;
         }
         .photo-frame{
-            margin-left: -90px;
+            /* margin-left: -90px; */
         }
         .extra{
             display: block;
@@ -182,8 +184,10 @@ img{
             margin-left: -350px;
             width: 50px;
             
-        } */
-        
+         } 
+        .extra video{
+            width: 100%;
+        }
     }
 
 
