@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700;900&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: rgb(28, 28, 156);
+    
+}
+nav a{
+    font-size: 16px;
+    text-decoration: none;
+    color:whitesmoke;
+    margin-right: 18px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 42px;
+    margin-top: 0;
+    position: relative;
+}
+nav span{
+    margin-left: 156px;
+    margin-right: 124 px;
+}
+
+.log-bar{
+    background-color:#E02C6D ;
+    margin-left: 350px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   
+}
+/* ---------------------------------first section suru ----------------------------------- */
+.top-section{
+    display:flex ;
+    background-color: rgb(28, 28, 156);
+}
+.top-title >h1{
+    color: #FFFFFF;
+    margin-left: 140px;
+    margin-top: 100px;
+    font-size: 50px;
+}
+.top-section a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: small;
+    background: #E02C6D;
+    padding: 10px 24px;
+   margin-top: 20px;
+   margin-left: 140px;
+}
+
+.banner img{
+    /* width: 556.01px; */
+    height: 438px;
+    margin-top: 50px;
+    margin-bottom: 86px;
+    /* margin-left: 80px; */
+}
+.banner{
+    transition: transform 2s;
+}
+.banner:hover{
+    /* transform: rotate(30deg); */
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+/* ------------------------------------middle section suru----------------------------------- */
+.mid-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 100px;
+    padding-top: 85px;
+    /* background-color: #beb7b75e; */
+}
+.photo-frame{
+    Width :330px;
+    Height:474px;
+    background-color: whitesmoke;
+    margin: 12px;
+    padding-left: 15px;
+    padding-top: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+img{
+    /* width: 300px; */
+    height: 256px;
+}
+.extra{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+.video{
+    width: 400px;
+    margin-right:200px ;
+}
+.logo-section img{
+    width: 583px;
+    height: 150px;
+    margin-left: 250px;
+    margin-top: 100px;
+    }
+    .icon-section{
+        margin-left: 500px;
+    }
+    .icon-section i{
+       margin-left: 12px;
+        color: rgb(145, 135, 135);
+        background-color: lightgrey;
+        padding: 5px;
+        border-radius: 20px;
+    }
+    p{
+        color: gray;
+        font-size: small;
+        margin-left: 20px;
+    }
+
+    @media only screen and (min-width:688px) {
+        nav{
+            width: 1160px;
+        }
+
+    }
+    /*------------------------------------- mobile device (media      query-----------------------------------*/
+
+    @media only screen and (max-width:688px) {
+/*        
+    header{
+        width: 900px;
+    }
+    header span{
+      margin-left: 20px;
+      width: 100%;
+    }
+        .top-section {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            height: 950px;
+            
+            
+        }
+        .top-title{
+           justify-content: center;
+           align-items: center;
+           margin-left: -130px;
+           font-size: 50px;
+        }
+
+                    .banner img{
+                        margin-top: 60px;
+                            margin-left:-12px;
+                            width: 500px;
+                    }
+                    .log-bar{
+                        margin-left: -200px;
+                    }
+        .mid-section{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .photo-frame{
+            margin-left: -90px;
+        }
+        .extra{
+            display: block;
+            width: 688px;
+            margin-left: -5px;
+        }
+        .extra h1{
+            margin-left: 90px;
+        }
+        .logo-section{
+            margin-left: -350px;
+            width: 50px;
+            
+        } */
+        
+    }
+
+
